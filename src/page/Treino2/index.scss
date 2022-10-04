@@ -1,0 +1,132 @@
+main{
+    background-color: #F5F6FA;
+    height: 150vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 3em;
+
+    .titulo{
+        margin-left: 1em;
+    }
+
+    .Coponentes1,
+    .Coponentes2,
+    .Coponentes3{
+        display: flex;
+        flex-direction: column;
+        width: 580px;
+        height: 200px;
+    
+    
+        background: #FFFFFF;
+        box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+        border-radius: 6px;
+        padding: 1em;
+    
+        margin-bottom: 2em;
+    }
+
+    .Coponentes3{
+        height: 330px;
+    }
+
+    .text1{
+        text-align: left;
+    }
+
+    .text2{
+        text-align: right;
+    }
+
+    .text3{
+        text-align: center;
+    }
+
+    .visibilidade{
+        visibility: hidden;
+    }
+
+    .centro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .box-row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box-row-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .box-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Quadrado1,
+    .Quadrado2,
+    .Quadrado3{
+        display: flex;
+        flex-direction: row;
+        margin: 0em 1em;
+    }
+
+    .Quadrado-Esquerda1,
+    .Quadrado-Esquerda2,
+    .Quadrado-Esquerda3{
+        background-color:#C8C8C8;
+        height: 100px;
+        width: 84px;
+        left: 387px;
+        top: 205px;
+        border-radius: 0px;
+    }
+
+    .Quadrado-Esquerda3{
+        height: 150px;
+        width: 140px;
+    }
+
+    .Quadrado-Centro1,
+    .Quadrado-Centro2,
+    .Quadrado-Centro3{
+        width: 26px;
+        height: 100px;
+        left: 471px;
+        top: 205px;
+
+        background: #D5D5D5;
+    }
+
+    .Quadrado-Centro3{
+        height: 150px;
+        width: 40px;
+    }
+
+ 
+    .Quadrado-Direita1,
+    .Quadrado-Direita2,
+    .Quadrado-Direita3{
+        width: 15px;
+        height: 100px;
+        left: 387px;
+        top: 205px;
+
+        background: #EDEDED;
+    }
+
+    .Quadrado-Direita3{
+        width: 29px;
+        height: 150px;
+    }
+
+}

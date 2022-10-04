@@ -1,0 +1,44 @@
+section{
+
+    p{
+        width: 550px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 21px;
+
+        color: #888888;
+
+        margin: 0em 1.5em ;
+        margin-bottom:1em ;
+    }
+
+
+    .Quadrado-Esquerda{
+        background-color:#C8C8C8;
+        height: 100px;
+        width: 84px;
+        left: 387px;
+        top: 205px;
+        border-radius: 0px;
+    }
+
+    .Quadrado-Centro{
+        width: 26px;
+        height: 100px;
+        left: 471px;
+        top: 205px;
+
+        background: #D5D5D5;
+    }
+
+    .Quadrado-Direita{
+        width: 15px;
+        height: 100px;
+        left: 387px;
+        top: 205px;
+
+        background: #EDEDED;
+    }
+}
