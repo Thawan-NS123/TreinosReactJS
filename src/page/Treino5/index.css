@@ -1,0 +1,182 @@
+main{
+    height: 300vh;
+}
+
+.Exercicio-1,
+.Exercicio-2,
+.Exercicio-3,
+.Exercicio-4,
+.Exercicio-5{
+    width: 650px;
+    height: 151px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+    border-radius: 6px;
+
+    padding: 2em;
+
+    margin-bottom: 2em;
+}
+
+.Exercicio-6{
+    width: 650px;
+    height: 551px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+    border-radius: 6px;
+
+    padding: 2.5em;
+
+    margin-bottom: 2em;
+}
+
+.Titulo_Exercicio-1,
+.Titulo_Exercicio-2,
+.Titulo_Exercicio-3,
+.Titulo_Exercicio-4,
+.Titulo_Exercicio-5,
+.Titulo_Exercicio-6{ 
+    max-width: 500px;
+    max-height: 50px;
+}
+
+.CaixaTexto_Exercicio-1{
+    padding: 1em;
+
+    width: 38.7em;
+    height: 1em;
+    font-size: 1em;
+}
+
+.CaixaTexto_Exercicio-2{
+    padding: 1.5em;
+
+    width: 40em;
+    height: 1.5em;
+    font-size: 1em;
+}
+
+.CaixaTexto_Exercicio-3{
+    width: 5em;
+    height: 1.5em;
+}
+
+.CaixaTexto_Exercicio-4{
+    padding: 1.5em;
+
+    width: 27em;
+    height: .2em;
+    font-size: 1em;
+}
+
+.CaixaTexto_Exercicio-5{
+    padding: 1.5em;
+
+    width: 3em;
+    height: .01em;
+    font-size: 1em;
+    margin: 0em 1em;
+}
+
+.CaixaTexto_Exercicio-6{
+    padding: 1.5em;
+
+    width: 2.5em;
+    height: 1.5em;
+    font-size: 1em;
+}
+
+.flex-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.CaixaTexto_Exercicio-6_nome{
+    padding: .80em;
+    font-size: 1em;
+    width: 400px;
+    margin: 0em 1.5em 0em 0em ;
+}
+
+.CaixaTexto_Exercicio-6_nascimento{
+    padding: 1em;
+    font-size: 1em;
+    width: 150px;
+}
+
+.CaixaTexto_Exercicio-6_altura,
+.CaixaTexto_Exercicio-6_peso{
+    padding: 1em;
+    font-size: 1em;
+    width: 40px;
+    margin: 0em 2em 0em 0em;
+}
+
+.Trabalha_atualmente{
+    font-size: 1.25em;
+    margin-right: 1.2em;
+}
+
+.button-atualizar,
+.button-somar{
+    width: 150px;
+    height: 50px;
+
+    color: white;
+    background: #0084FF;
+
+    margin: 0em 1em;
+
+    font-size: 1em;
+    font-weight:bold;
+    border: none;
+    border-radius: 3px;
+}
+
+.Ficha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nascimento{
+    margin-bottom: 0em;
+}
+
+
+span{
+    color: rgb(187, 187, 187);
+    margin-left: 0.25em;
+}
+
+.nome{
+    margin-left: 2.6em;
+}
+
+.Alt_Pes_IMC{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0em;
+}
+
+.altura{
+    margin-right: 7em;
+    margin-left: 2.65em;
+}
+
+.peso{
+    margin-right: 7em;
+}
+
+.trabalha{
+    margin-top: 0em;
+    margin-left: 1.65em;
+}

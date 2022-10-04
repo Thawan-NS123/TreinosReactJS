@@ -1,0 +1,12 @@
+    function semaphore() {
+        if(cor1)
+            setSemafaro("Permitido Passagem");
+        if(cor2)
+            setSemafaro("Diminua a velocidade");
+        if(cor3)
+            setSemafaro("Pare!");
+    }
+
+    useEffect(() => {
+        semaphore()
+    }, [cor1, cor2, cor3]);

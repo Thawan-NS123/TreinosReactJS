@@ -1,0 +1,102 @@
+.Efeito1,
+.Efeito2,
+.Efeito3,
+.Efeito4{
+    width: 650px;
+    height: 151px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+    border-radius: 6px;
+
+    padding: 2em;
+
+    margin-bottom: 2em;
+}
+
+.Efeito3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row{
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+
+.CaixaTexto_Nota{ 
+    padding: 1em;
+
+    width: 2em;
+    height: 1em;
+    font-size: 1em;
+
+    border: 0.15em solid black;
+}
+
+.flex-row-Media{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.Efeito2_flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Notas{
+    width: 500px;
+}
+
+.Titulo-calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.CaixaTexto_Media{
+    padding: 1em;
+
+    width: 2em;
+    height: 1em;
+    font-size: 1em;
+
+    border: 0.15em solid black;
+    margin: 0em 1em;
+}
+
+.Semafaro{
+    display: flex;
+    flex-direction: column;
+}
+
+.verde,
+.amarelo,
+.vermelho{
+    background-color: gray;
+    color: gray;
+    margin: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;  
+}
+
+.verde:hover{
+    background-color: rgb(6, 236, 6);
+}
+
+.amarelo:hover{
+    background-color: yellow;
+}
+
+.vermelho:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
